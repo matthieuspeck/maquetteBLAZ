@@ -1,0 +1,24 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color: #f00f0f;
+}
+
+/*##################################*/
+/*############# GRILLE #############*/
+/*#################################*/
+
+body{
+     width: 1230px;
+}
+      
+    
+/*############Header##########*/
+
+header{
+    background: url("images/fondheader.png") no-repeat;
+}
+#phonefloat{
+    float: right;
+}
