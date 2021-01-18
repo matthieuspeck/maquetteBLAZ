@@ -9,16 +9,14 @@ h1 {
 /*############# GRILLE #############*/
 /*#################################*/
 
-body{
-     width: 1230px;
+.container{
+    width: 1230px;
 }
       
     
 /*############Header##########*/
 
-header{
-    background: url("images/fondheader.png") no-repeat;
-}
+
 #phonefloat{
     float: right;
 }
