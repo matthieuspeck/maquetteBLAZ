@@ -3,45 +3,52 @@
 <html>
    <head>
     <!-- Place this data between the <head> tags of your website -->
-    <title>Site Web de BLAZ</title>
-    <meta name="blaz" content="site de vente en ligne de matériel d'évasion" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Site Web de TAKE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="Take" content="site du fabricant de téléphone TAKE" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="site de vente en ligne de matériel d'évasion">
+    <meta name="twitter:card" content="site du fabricant de téléphone TAKE">
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="blaz"/>
+    <meta property="og:title" content="take"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://www.example.com/"/>
     <meta property="og:image" content="http://example.com/image.jpg"/>
-    <meta property="og:description" content="site de vente en ligne de matériel d'évasion"/>
+    <meta property="og:description" content="site du fabricant de téléphone TAKE"/>
 
+    <!-- liens CSS bootstrap et JS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="styles.css" rel="stylesheet">
    </head>
 <body>
 
    <!-- Header -->
-   <header>
-        <div class="container">
-            <img src="images/fondheader.png">
+ 
+   
+   <!-- Section 1 -->
+        <div class="container" id="headerimage">
             <div class="row">
-                <div class="col-md-8">
-                     <h1>Picture perfect</h1>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>          
-                <div class="col-md-4" id="phonefloat">
+                <div class="col-md-2">
+                    <img src="images/Logo.png">
+                </div>
+                <div class="col-md-10"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-12 " >
+                    <h1>Picture perfect</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div class="col-md-4 hidden-sm-down">
                     <img src="images/phone.png">
                 </div>
             </div>
         </div>
-   </header>
-   
-   <!-- Section 1 -->
-   <section id="section_one">
-        
-   </section> 
 
    <!-- Section 2 Description -->
    <section id="description">
@@ -69,7 +76,54 @@
    <section id="price_ranges">
    </section> 
    
-   <footer>
+   <footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div>
+                    <h2>Get in Touch</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-8">
+                        <h2>Ressources</h2>
+                        <ul>
+                            <li>Tour</li>
+                            <li>customers</li>
+                            <li>Princing and Plans</li>
+                            <li>new feature</li>
+                            <li>Education</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-8">
+                        <h2>Features</h2>
+                        <ul>
+                            <li>Tour</li>
+                            <li>customers</li>
+                            <li>Princing and Plans</li>
+                            <li>new feature</li>
+                            <li>Education</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-8">
+                        <h2>How To's</h2>
+                        <ul>
+                            <li>Tour</li>
+                            <li>customers</li>
+                            <li>Princing and Plans</li>
+                            <li>new feature</li>
+                            <li>Education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                    <div>
+                        <h2>Stay in Touch</h2>
+                    </div>   
+            </div>          
+        </div>
+    </div>       
    </footer>
 
 </body>
