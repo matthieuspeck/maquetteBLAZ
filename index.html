@@ -1,57 +1,66 @@
 <!DOCTYPE html>
-
 <html>
    <head>
-    <!-- Place this data between the <head> tags of your website -->
-    <title>Site Web de TAKE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <meta name="Take" content="site du fabricant de téléphone TAKE" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <!-- Place this data between the <head> tags of your website -->
+        <title>Site Web de TAKE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="Take" content="site du fabricant de téléphone TAKE" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="site du fabricant de téléphone TAKE">
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="site du fabricant de téléphone TAKE">
 
-    <!-- Open Graph data -->
-    <meta property="og:title" content="take"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.example.com/"/>
-    <meta property="og:image" content="http://example.com/image.jpg"/>
-    <meta property="og:description" content="site du fabricant de téléphone TAKE"/>
+        <!-- Open Graph data -->
+        <meta property="og:title" content="take"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://www.example.com/"/>
+        <meta property="og:image" content="http://example.com/image.jpg"/>
+        <meta property="og:description" content="site du fabricant de téléphone TAKE"/>
 
-    <!-- liens CSS bootstrap et JS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- liens CSS bootstrap et JS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <link href="styles.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
    </head>
 <body>
-
-   <!-- Header -->
- 
-   
    <!-- Section 1 -->
-        <div class="container" id="headerimage">
+<section id="header">
+    <div class="container-fluid" > 
+         <div class="container">
+            <img src="images/Logo.png" class="mt-md-5">
             <div class="row">
-                <div class="col-md-2">
-                    <img src="images/Logo.png">
-                </div>
-                <div class="col-md-10"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 col-sm-12 " >
+                <div class="col-md-5 col-sm-12 " >
                     <h1>Picture perfect</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
-                <div class="col-md-4 hidden-sm-down">
-                    <img src="images/phone.png">
+                <div class="col-md-7 hidden-sm hidden-xs" id="floatphone">
+                    <img src="images/phone.png" id="phone">
+                </div>
+            </div>
+        </div>   
+    </div>    
+</section>
+   <!-- Section 2 Description -->
+   <section>
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-6">
+                    <h2>Start something new</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col col-md-6" style="margin-top: 8%;">
+                    <div>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
                 </div>
             </div>
         </div>
-
-   <!-- Section 2 Description -->
-   <section id="description">
    </section>
 
    <!-- Section 3 Contenu mis en avant -->
@@ -81,13 +90,23 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div>
-                    <h2>Get in Touch</h2>
+                    <h3>Get in Touch</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-8">
-                        <h2>Ressources</h2>
-                        <ul>
+                        <h3>Ressources</h3>
+                        <ul class="list-unstyled">
+                            <li>Tour</li>
+                            <li >customers</li>
+                            <li >Princing and Plans</li>
+                            <li >new feature</li>
+                            <li >Education</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-8">
+                        <h3>Features</h3>
+                        <ul class="list-unstyled">
                             <li>Tour</li>
                             <li>customers</li>
                             <li>Princing and Plans</li>
@@ -96,18 +115,8 @@
                         </ul>
                     </div>
                     <div class="col-md-4 col-8">
-                        <h2>Features</h2>
-                        <ul>
-                            <li>Tour</li>
-                            <li>customers</li>
-                            <li>Princing and Plans</li>
-                            <li>new feature</li>
-                            <li>Education</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-8">
-                        <h2>How To's</h2>
-                        <ul>
+                        <h3>How To's</h3>
+                        <ul class="list-unstyled">
                             <li>Tour</li>
                             <li>customers</li>
                             <li>Princing and Plans</li>
@@ -117,9 +126,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-1 col-xs-2">
+                
+            </div>
+            <div class="col-md-5 col-xs-8">
                     <div>
-                        <h2>Stay in Touch</h2>
+                        <h3>Stay in Touch</h3>
+                        <form class="form-inline">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1"></label>
+                                    <input type="email" class="form-control input-lg" id="exampleInputEmail1" >
+                                    <button type="submit" class="btn btn-success btn-lg"><img src="images/shape6.png" alt="..." class="img-rounded"></button>
+                                </div>
+                        </form>
+                        <p><small> We don’t send spam. Actually, who are we kiding, we’ll spam 
+                            the shit out of you’r inbox.</small></p>
                     </div>   
             </div>          
         </div>
