@@ -16,6 +16,17 @@
     height: 850px;
 }
 
+/*############section 2#############*/
+#float{
+    position: relative;
+   bottom: 500px;
+}
+
+#floatleft{
+    height: 8rem;
+}
+
+
 /*############section 3 contenu mis en avant #############*/
 #section3range p{
     margin: 40px auto;
