@@ -9,3 +9,7 @@ je reviendrai sur cette version de ma page lorsque je serai plus à l'aise avec 
 
 matthieu Speck
 
+!!!! UPDATE du 25 janvier !!!!
+
+plusieurs tuto sur bootstrap + le cours uniquement sur bootstrap + un bouquin sur bootstrap et voici le résultat avec le plus possible de commande bootstrap ( et moins de css perso)
+
