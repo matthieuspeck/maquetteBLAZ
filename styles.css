@@ -64,16 +64,18 @@
 
 /*############ section 4 details #############*/
 #details{
-    height: 530px;
-   
+    min-height: 530px;
+    display: flex;
+    align-items: center;
+    font-size: 70%;
+    line-height: 2;  
 }
 
-#details .container h2{
-    margin-bottom: 50px;
+#details h1 {
+    font-weight: 200;
 }
-#details .container h4{
-    margin-bottom: 20px;
-    font-weight: bold;
+#details h5 {
+    font-weight: 400;
 }
 
 /*############ section 5 bigpicture #############*/
