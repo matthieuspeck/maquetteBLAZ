@@ -127,5 +127,13 @@
 /*############ footer #############*/
 #footer{
     background-color: #141e28;
-    color: #8d9bb1;
+    color: #cccdd1;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    font-size: 70%;
+    line-height: 2;
+}
+.form-control{
+    min-width: 85%;
 }
