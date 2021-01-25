@@ -15,7 +15,10 @@
 #hauteur-col{
     height: 850px;
 }
-
+#section1 h1{
+    font-weight: 200;
+    
+}
 /*############section 2#############*/
 #float{
     position: relative;
@@ -26,38 +29,51 @@
     height: 8rem;
 }
 
+#description h2{
+    font-weight: 300;
+}
 
 /*############section 3 contenu mis en avant #############*/
-#section3range p{
-    margin: 40px auto;
+
+#section3range .row{
+    min-height: 280px;
+}
+#section3range h2{
+    font-weight: 200;
 }
 #bloc1{
     font-size: 0.8em;   
-    height: 280px;
+    
     color: white;
     background-color: #f5989d;
 }
 #bloc2{
     font-size: 0.8em;   
-    height: 280px;
+    
     color: white;
     background-color: #615f7d;
 }
 #bloc3{
     font-size: 0.8em;   
-    height: 280px;
+    
     color: white;
     background-image:url(images/bloc3.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
 }
 #bloc4{
     font-size: 0.8em;   
-    height: 280px;
+    
     color: white;
     background-image: url(images/bloc4.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
 }
 #bloc5{
     font-size: 0.8em;   
-    height: 280px;
+    
     color: white;
     background-color: #82ca9c;
 }
