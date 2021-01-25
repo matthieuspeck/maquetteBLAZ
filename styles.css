@@ -78,39 +78,32 @@
 
 /*############ section 5 bigpicture #############*/
 #big-picture{
+    min-height: 870px;
     background-image: url(images/bigpicture.png);
-    background-size: cover; 
+    background-position: center;
+    background-size: cover;
     max-width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 70%;
+    line-height: 2; 
     height: auto;
     color: white;
 }
-#big-picture h1{
-    margin-top: 60%;
-    margin-bottom: 40px;
-    color: white;
+#big-picture .row{
+    padding-bottom: 16%;
 }
-#big-picture p:last-of-type{
-    margin-top: 5%;
-    margin-bottom: 30%;
-  
-}
-
 /*############ section 6 about #############*/
 
 #about{
-    height: 530px;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+    font-size: 70%;
+    line-height: 2;
     background-color: #82ca9c;
     color: white;
-    margin-top:-20px;
-}
-#about h2{
-    margin-top: 10%;
-    margin-bottom: 3%;
-}
-
-#about div[class*="col"]{
-    
-
+   
 }
 /*############ section 7 price ranges #############*/
 
